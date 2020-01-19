@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <title>Fake E3 Api</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="container">
+        <ul>
+          <li><a href="/">Fake E3 Api</a></li>
+          <li><a href="/guide.html">Guide</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+        <!-- Hero -->
+  <div class="hero">
+    <div class="container">
+      <h1>Fake E3 Api</h1>
+    </div>
+  </div>
+
+
+  <!-- Main -->
+  <div class="container">
+    <main>
+      <!-- Resources -->
+      <h2>Resources</h2>
+      <p>
+        JSONPlaceholder comes with a set of 6 common resources:
+      </p>
+
+      <table class="resources">
+        <tr>
+          <td>
+            <a href="/posts">/posts</a>
+          </td>
+          <td>100 posts</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/comments">/comments</a>
+          </td>
+          <td>500 comments</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/albums">/albums</a>
+          </td>
+          <td>100 albums</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/photos">/photos</a>
+          </td>
+          <td>5000 photos</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/todos">/todos</a>
+          </td>
+          <td>200 todos</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/users">/users</a>
+          </td>
+          <td>10 users</td>
+        </tr>
+      </table>
+
+      <p>
+        <strong>Note</strong>: resources have relations. For example:
+        <b>posts</b> have many
+        <b>comments</b>,
+        <b>albums</b> have many
+        <b>photos</b>, ... see below for routes examples.
+      </p>
+
+      <!-- Routes -->
+      <h2>Routes</h2>
+      <p>
+        All HTTP methods are supported.
+      </p>
+
+      <table>
+        <tr>
+          <td>GET</td>
+          <td>
+            <a href="/posts">/posts</a>
+          </td>
+        </tr>
+        <tr>
+          <td>GET</td>
+          <td>
+            <a href="/posts/1">/posts/1</a>
+          </td>
+        </tr>
+        <tr>
+          <td>GET</td>
+          <td>
+            <a href="/posts/1/comments">/posts/1/comments</a>
+          </td>
+        </tr>
+        <tr>
+          <td>GET</td>
+          <td>
+            <a href="/comments?postId=1">/comments?postId=1</a>
+          </td>
+        </tr>
+        <tr>
+          <td>GET</td>
+          <td>
+            <a href="/posts?userId=1">/posts?userId=1</a>
+          </td>
+        </tr>
+        <tr>
+          <td>POST</td>
+          <td>/posts</td>
+        </tr>
+        <tr>
+          <td>PUT</td>
+          <td>/posts/1</td>
+        </tr>
+        <tr>
+          <td>PATCH</td>
+          <td>/posts/1</td>
+        </tr>
+        <tr>
+          <td>DELETE</td>
+          <td>/posts/1</td>
+        </tr>
+        </tr>
+      </table>
+
+      <p>
+        <strong>Note</strong>: you can view detailed examples
+        <a href="guide.html">here</a>.
+      </p>
+
+    </main>
+  </div>
+
+    </div>
+
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+  <!-- Hero -->
+  <div class="hero">
+    <div class="container">
+      <h1>Fake E3 Api</h1>
+    </div>
+  </div>
+
+
+  <!-- Main -->
+  <div class="container">
+    <main>
+      <!-- Resources -->
+      <h2>Resources</h2>
+      <p>
+        JSONPlaceholder comes with a set of 6 common resources:
+      </p>
+
+      <table class="resources">
+        <tr>
+          <td>
+            <a href="/posts">/posts</a>
+          </td>
+          <td>100 posts</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/comments">/comments</a>
+          </td>
+          <td>500 comments</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/albums">/albums</a>
+          </td>
+          <td>100 albums</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/photos">/photos</a>
+          </td>
+          <td>5000 photos</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/todos">/todos</a>
+          </td>
+          <td>200 todos</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="/users">/users</a>
+          </td>
+          <td>10 users</td>
+        </tr>
+      </table>
+
+      <p>
+        <strong>Note</strong>: resources have relations. For example:
+        <b>posts</b> have many
+        <b>comments</b>,
+        <b>albums</b> have many
+        <b>photos</b>, ... see below for routes examples.
+      </p>
+
+      <!-- Routes -->
+      <h2>Routes</h2>
+      <p>
+        All HTTP methods are supported.
+      </p>
+
+      <table>
+        <tr>
+          <td>GET</td>
+          <td>
+            <a href="/posts">/posts</a>
+          </td>
+        </tr>
+        <tr>
+          <td>GET</td>
+          <td>
+            <a href="/posts/1">/posts/1</a>
+          </td>
+        </tr>
+        <tr>
+          <td>GET</td>
+          <td>
+            <a href="/posts/1/comments">/posts/1/comments</a>
+          </td>
+        </tr>
+        <tr>
+          <td>GET</td>
+          <td>
+            <a href="/comments?postId=1">/comments?postId=1</a>
+          </td>
+        </tr>
+        <tr>
+          <td>GET</td>
+          <td>
+            <a href="/posts?userId=1">/posts?userId=1</a>
+          </td>
+        </tr>
+        <tr>
+          <td>POST</td>
+          <td>/posts</td>
+        </tr>
+        <tr>
+          <td>PUT</td>
+          <td>/posts/1</td>
+        </tr>
+        <tr>
+          <td>PATCH</td>
+          <td>/posts/1</td>
+        </tr>
+        <tr>
+          <td>DELETE</td>
+          <td>/posts/1</td>
+        </tr>
+        </tr>
+      </table>
+
+      <p>
+        <strong>Note</strong>: you can view detailed examples
+        <a href="guide.html">here</a>.
+      </p>
+
+    </main>
+  </div>
